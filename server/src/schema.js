@@ -8,7 +8,7 @@ type Query {
 "A track is a group of Modules that teaches about a specific topic"
 type Track {
     id: ID!
-    "the trac's title"
+    "the track's title"
     title: String!
     "the track's main author"
     author: Author!
